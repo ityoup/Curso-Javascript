@@ -1,0 +1,382 @@
+.classLogo{
+    display: inline-grid;
+    width: 25%;
+    height: auto;
+  }
+  /* .responsive{
+      max-width: 100%;
+      width: 200px;
+      height: auto;
+      
+  } */
+  .flip-card {
+    
+      background-color: transparent;
+      width: 100%;
+      height: 100%;
+      border: 0px solid #f1f1f1;
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    }
+    
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.5s;
+      transform-style: preserve-3d;
+    }
+    
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden; /* Safari */
+      backface-visibility: hidden;
+    }
+  
+    
+    
+    /* Style the front side (fallback if image is missing) */
+   
+    
+    /* Style the back side */
+    .flip-card-back {
+      
+      background-color: dodgerblue;
+      color: white;
+      transform: rotateY(-180deg);
+    }
+    
+    .loginButton{
+      position: relative; top: 70px; border-radius: 3px; border: solid 1px #bbb; width: 250px; height: 40px;
+      background-color:  #dfdfa9; 
+      transition: 0.4s;
+    }
+  
+    .loginButton:hover{
+      
+      background-color: #9f9f78
+  
+    }
+  
+  /* ---------------------AquÃ­ comienzan los estilos de Generador_codigo------------------------- */
+  
+  .prueba{
+    width: 10%;
+  }
+  
+  
+  .divTabla2{
+    /* border: solid black; */
+     position: relative; top: 20px;
+   }
+  
+   .divTabla3{
+    /* border: solid black; */
+     position: relative; top: 20px;
+     
+     
+     
+   }
+  
+   .divTabla4{
+    /* border: solid black; */
+     position: relative; bottom: 20px;
+    
+  
+     
+   }
+  
+  .masterDiv{
+    /* border: solid black; */
+    border-radius: 10px;
+    border: solid 1px #eee;
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+  }
+  
+  /* Es la caja maestra de todo el proyecto */
+  .masterDivSup{
+    
+    
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px #eee;
+    width: 100%;
+    background-color: white;
+  }
+  
+  textarea{
+    border: solid 2px #ECECEC;
+    border-radius: 5px;
+    background-color: #eee;
+  }
+  
+  
+  .divBotonCaptura{
+    position: relative; top: 50px;
+    width: 100px;
+  }
+  
+  .botonCaptura{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #dfdfa9;
+    transition: 0.5s;
+  
+  }
+  
+  .botonCaptura:hover{
+    text-align: center;
+    background-color: #C2C293;
+    
+  }
+  .caja {
+    background-color: #eee;
+    position: relative; top: 50px; left: 150px;
+    margin:20px auto 40px auto;	
+    border:1px solid #d9d9d9;
+    height:30px;
+    overflow: hidden;
+    width: 230px;
+  }
+  select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+  }
+  select:focus{ outline: none;}
+  
+  .caja::after{
+   content:"\025be";
+   display:table-cell;
+   padding-top:7px;
+   text-align:center;
+   width:30px;
+   height:30px;
+   background-color:#d9d9d9;
+   position:absolute;
+   top:0;
+   right:0px;	
+   pointer-events: none;
+  }
+  
+  .caja2{
+    background-color: #eee;
+    position: relative; bottom: 68px; right: 160px;
+    margin:20px auto 40px auto;	
+    border:1px solid #d9d9d9;
+    height:30px;
+    overflow: hidden;
+    width: 230px;
+    
+  }
+  select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+  }
+  select:focus{ outline: none;}
+  
+  .caja2::after{
+   content:"\025be";
+   display:table-cell;
+   padding-top:7px;
+   text-align:center;
+   width:30px;
+   height:30px;
+   background-color:#d9d9d9;
+   position:absolute;
+   top:0;
+   right:0px;	
+   pointer-events: none;
+  
+  }
+  
+  .caja3{
+    background-color: #eee;
+    position: relative; bottom: 80px; right: 290px;
+    margin:20px auto 40px auto;	
+    border:1px solid #d9d9d9;
+    height:30px;
+    overflow: hidden;
+    width: 230px;
+    position:relative;
+  }
+  select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+  }
+  select:focus{ outline: none;}
+  
+  .caja3::after{
+   content:"\025be";
+   display:table-cell;
+   padding-top:7px;
+   text-align:center;
+   width:30px;
+   height:30px;
+   background-color:#d9d9d9;
+   position:absolute;
+   top:0;
+   right:0px;	
+   pointer-events: none;
+  
+  }
+  
+  .caja4{
+    background-color: #eee;
+    position: relative;
+    bottom: 180px; 
+    left: 10px;
+    margin:20px auto 40px auto;	
+    border:1px solid #d9d9d9;
+    height:30px;
+    overflow: hidden;
+    width: 230px;
+    
+  }
+  select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+  }
+  select:focus{ outline: none;}
+  
+  .caja4::after{
+   content:"\025be";
+   display:table-cell;
+   padding-top:7px;
+   text-align:center;
+   width:30px;
+   height:30px;
+   background-color:#d9d9d9;
+   position:absolute;
+   top:0;
+   right:0px;	
+   pointer-events: none;
+  
+  }
+  
+  .caja5{
+    background-color: #eee;
+    position: relative; top: 120px; right: 2px;
+    margin:20px auto 40px auto;	
+    border:1px solid #d9d9d9;
+    height:30px;
+    overflow: hidden;
+    width: 230px;
+    
+  }
+  select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+  }
+  select:focus{ outline: none;}
+  
+  .caja5::after{
+   content:"\025be";
+   display:table-cell;
+   padding-top:7px;
+   text-align:center;
+   width:30px;
+   height:30px;
+   background-color:#d9d9d9;
+   position:absolute;
+   top:0;
+   right:0px;	
+   pointer-events: none;
+  
+  }
+  
+  ul {
+    list-style: none;
+    position: absolute;
+    padding: 1px;
+    background-color: white;
+    width: 280px;
+  }
+   li {
+   
+    cursor: pointer;
+  
+  
+    }
+  #response ul li{
+  box-shadow: 0 5px 25px rgb(0,0,0,.1);
+  margin-left: 35px;
+  transition: transform 0.5s;
+  
+  }
+  
+  #response ul li:hover{
+    box-shadow: 0 5px 25px rgb(0,0,0,.1);
+    text-align: center;
+    line-height: 20px;
+  
+    display: inline-block;
+    
+  }
+  
+  
+  
+  @media (min-width: 1920px){
+    .masterDiv{
+      width: 900px;
+    }
+  
+  }
+  
+  @media (max-width: 1920px){
+    .masterDiv{
+      width: 900px;
+    }
+  
+  }
+  /* Haciendo tabla 2 */
+  @media (max-height: 1080px){
+    .masterDivSup{
+      height: 100%;
+    }
+  }
+  
+  @media (max-width: 1920px){
+    .masterDivSup{
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 1080px){
+    .masterDivSup{
+      width: 96%;
+    }
+  }
+  
